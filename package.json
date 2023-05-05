@@ -4,19 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-glsl": "^2.8.3",
     "@parcel/transformer-sass": "^2.8.3",
     "gsap": "^3.11.4",
     "include-media": "^2.0.0",
     "normalize-wheel": "^1.0.1",
-    "ogl": "^0.0.116",
+    "ogl": "0.0.60",
     "parcel": "^2.8.3",
     "sass": "^1.59.3"
+  },
+  "dependencies": {
+    "three": "^0.152.2"
   }
 }
