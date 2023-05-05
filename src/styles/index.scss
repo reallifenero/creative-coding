@@ -1,1 +1,14 @@
-@import "./base.scss";
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/breakpoints";
+
+@import "./shared/description";
+@import "./shared/links";
+@import "./shared/link";
+@import "./shared/title";
+
+@import "./base/fonts";
+@import "./base/globals";
+
+@import "./pages/home";
