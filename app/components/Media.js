@@ -1,7 +1,7 @@
 import { Mesh, Program, Texture } from "ogl";
 
-import fragment from "/shaders/fragment.glsl";
-import vertex from "/shaders/vertex.glsl";
+import fragment from "/shaders/demo-1/fragment.glsl";
+import vertex from "/shaders/demo-1/vertex.glsl";
 
 export default class {
   constructor({ element, geometry, gl, height, scene, screen, viewport }) {

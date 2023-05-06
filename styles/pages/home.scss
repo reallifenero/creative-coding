@@ -25,8 +25,8 @@ html {
   }
 
   &:nth-child(1) {
-    height: 40rem;
-    width: 70rem;
+    width: 60rem;
+    height: 50rem;
   }
 
   &:nth-child(2) {
@@ -110,7 +110,7 @@ html {
 .demo-1__gallery__image {
   height: 100%;
   left: 0;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 0;
   width: 100%;
